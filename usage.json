@@ -13,13 +13,31 @@
     "command": "npm start",
     "requiresCredentials": false,
     "validation": "passed",
-    "validatedAt": "2026-10-24T13:02:53.762942+00:00",
+    "validatedAt": "2026-10-24T15:12:56.881089+00:00",
     "isolatedInstallation": true,
     "sourceSha256": "098383ac7bfaed92617735c20e642b73042c55f0d21e7fbeceb45b872b605f0b",
-    "manifestSha256": "c1fc492b323ffb5a6affbb3e8b340aec45e66f86474ac0c7d409c5ba96ef3f0a"
+    "manifestSha256": "be2d0081024b8b5c17c7c6cbf0f2d986b9f15192c3eb16d694dea784f6876efe"
   },
   "npmPackages": [
     "@x12i/lattix-docs"
   ],
-  "publisher": "x12i-publisher[bot]"
+  "publisher": "x12i-publisher[bot]",
+  "additionalExamples": {
+    "@x12i/lattix": {
+      "packageVersion": "0.2.0",
+      "title": "Use the exported Explorer transport with a local health response",
+      "entrypoint": "src/lattix-example.mjs",
+      "command": "npm run example:lattix",
+      "requiresCredentials": false,
+      "validation": "passed",
+      "isolatedInstallation": true,
+      "sourceSha256": "73b40bd280b5e23758950a42e1db5713cd5d93c3026ec31efbb7f86e62a3863e",
+      "manifestSha256": "be2d0081024b8b5c17c7c6cbf0f2d986b9f15192c3eb16d694dea784f6876efe",
+      "validatedAt": "2026-10-24T15:12:56.881089+00:00"
+    }
+  },
+  "validationFiles": {
+    "src/index.mjs": "098383ac7bfaed92617735c20e642b73042c55f0d21e7fbeceb45b872b605f0b",
+    "src/lattix-example.mjs": "73b40bd280b5e23758950a42e1db5713cd5d93c3026ec31efbb7f86e62a3863e"
+  }
 }
