@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/lattix-docs",
+  "packageVersion": "0.1.0",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/lattix-docs",
+  "usageRepository": "https://github.com/x12i-sdk/lattix",
+  "sourceRepository": "https://github.com/x12i/lattix",
+  "sourceCommit": "8f90857a6fb3d5dc7b8df0f266fbdc211c09958b",
+  "sourcePackageDirectory": "lattix-docs/packages/lattix-docs",
+  "example": {
+    "title": "List the bundled guides and read a use case",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T13:02:53.762942+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "098383ac7bfaed92617735c20e642b73042c55f0d21e7fbeceb45b872b605f0b",
+    "manifestSha256": "c1fc492b323ffb5a6affbb3e8b340aec45e66f86474ac0c7d409c5ba96ef3f0a"
+  },
+  "npmPackages": [
+    "@x12i/lattix-docs"
+  ],
+  "publisher": "x12i-publisher[bot]"
+}
